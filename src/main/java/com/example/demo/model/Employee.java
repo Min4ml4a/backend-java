@@ -3,23 +3,61 @@ package com.example.demo.model;
 public class Employee {
 	
 	private String employeeId ;
-	private String fristName ;
+	private String firstName ;
 	private String lastName ;
-	private String salaly ;
-	
-	
+	private String salary ;
 	
 	public Employee() {
 		super();
 	}
+	
 
-
-	public Employee(String employeeId, String fristName, String lastName, String salaly) {
+	public Employee(String employeeId, String firstName, String lastName, String salary) {
 		super();
 		this.employeeId = employeeId;
-		this.fristName = fristName;
+		this.firstName = firstName;
 		this.lastName = lastName;
-		this.salaly = salaly;
+		this.salary = salary;
+	}
+	
+	public String getEmployeeId() {
+		return employeeId;
+	}
+	public void setEmployeeId(String employeeId) {
+		this.employeeId = employeeId;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getSalary() {
+		return salary;
+	}
+	public void setSalary(String salary) {
+		this.salary = salary;
+	}
+	
+	
+}
+	/*public Employee() {
+		super();
+	}
+	
+
+	public Employee(String employeeId, String firstName, String lastName, String salary) {
+		super();
+		this.employeeId = employeeId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.salary = salary;
 	}
 	
 	
@@ -30,10 +68,10 @@ public class Employee {
 		this.employeeId = employeeId;
 	}
 	public String getFristName() {
-		return fristName;
+		return firstName;
 	}
-	public void setFristName(String fristName) {
-		this.fristName = fristName;
+	public void setFristName(String firstName) {
+		this.firstName = firstName;
 	}
 	public String getLastName() {
 		return lastName;
@@ -41,11 +79,12 @@ public class Employee {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getSalaly() {
-		return salaly;
+	public String getSalary() {
+		return salary;
 	}
-	public void setSalaly(String salaly) {
-		this.salaly = salaly;
+	public void setSalaly(String salary) {
+		this.salary = salary;
 	}
 
 }
+*/
