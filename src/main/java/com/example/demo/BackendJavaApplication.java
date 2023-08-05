@@ -11,6 +11,7 @@ public class BackendJavaApplication {
 		SpringApplication.run(BackendJavaApplication.class, args);
 		System.out.println("hello");
 		System.out.println("IIIIIII");
+		
 	}
 
 }
